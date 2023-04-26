@@ -5,23 +5,62 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfólio Web</title>
+  <style>
+    body{
+      /*imagem de fundo*/
+      background-image: url(fundo.jpg)
+    }
+
+    body{
+      /*fonte que remete a um jornal antigo*/
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 16px;
+      font-weight:400
+      
+    }
+      .sobreMim{
+        background-color: rgba(211, 211, 211, 0.536);
+        text-align:center;
+    }
+
+      .lista{
+        background-color:rgba(211, 211, 211, 0.536);
+        text-align:left;
+      }
+      .meuNome{
+        background-color:rgba(211, 211, 211, 0.536);
+        text-align: center;
+      }
+      .img-container{
+        text-align: center;
+        display: block;
+      }
+      .Idade{
+        text-align: center;
+      }
+
+  </style>
 </head>
 <body>
-  <a href="#sobre-mim">Sobre mim</a>
-  <a href="#pagina">Página que eu gosto</a>
-  <h1 class="meuNome">Tryber</h1>
-  <img src="sua-foto.jpeg" alt="Tryber sorrindo com camiseta da Trybe" id="foto">
-  <p class="descricao">Lorem ipsum <strong><em>dolor sit amet</em></strong>, consectetur adipiscing elit. Suspendisse convallis id ligula tempor consequat. Nulla urna risus, luctus quis egestas ut, elementum ac lacus. Nunc scelerisque purus at lacus mollis, ut vestibulum purus fermentum. In ac efficitur augue. Fusce elementum rhoncus tellus, interdum rhoncus tellus aliquam vel.</p>
-  <p class="resido"><strong>Cidade - Estado</strong></p>
-  <h2>Lista de habilidades</h2>
-  <ul>
-    <li class="javascript">Javascript</li>
-    <li class="sql">SQL</li>
-    <li class="react">React</li>
-    <li class="bootstrap">Bootstrap</li>
-    <li class="metoAgil">Metodologias ágeis</li>
+  <a href="#sobreMim">Sobre mim</a>
+  <a href="https://www.youtube.com/@cmecampodeourique/" target="_blank">Youtube da igreja em que congrego</a>
+  <h1 class="meuNome">Everton Balland</h1>
+  <div class="img-container">
+  <img src="perfil.jpg" height="300px" alt="Everton sorrindo e segurando seu bass" id="foto"></div>
+  <p class="Idade"><em>Idade 35 anos</em></p>
+  <p class="sobreMim">Nascido em Joinville/SC. Hoje vivo em Lisboa com minha família, casado pai de duas meninas lindas e após muito pensar e analizar as tendências de mercado na Europa e no mundo, decidi mudar de carreira e escolhi Desenvolvimento Web como nova profissão.<br> Escolhi a <strong><em>Trybe</em></strong>, por ser uma escola de programação referência no Brasil e também por sua metodologia que se adequa exatamente com aquilo que preciso.<br> Sou aficcionado por games e tecnologia e busco cada vez mais aprender e melhorar os conhecimentos que já tenho obtido nesta nova fase visando me atualizar para as novas tecnologia que a cada dia surgem no mundo.</p>
+  <p class="resido"><strong>Lisboa - Portugal</strong></p>
+  <h2>Minhas habilidades ou falta delas</h2>
+
+  <ul class="lista">
+     <li class="javascript">Aprendiz em HTML, CSS e Javascript</li>
+     <li class="midia">Lidero a equipe de mídia da minha igreja</li>
+     <li class="bass">Toco contrabaixo</li>
+     <li class="esporte">Não sou bom com esportes</li>
+     <li class="tec">Aprendo com facilidade</li>
+     <li class="Turista">Péssimo Turista</li>
   </ul>
-  <a href="#minha-foto">Minha foto</a>
+  <a href="#perfil">Minha foto</a>
   <a href="https://blog.betrybe.com/carreira/frontend/" target="_blank">Artigo legal</a>
 </body>
 </html>
