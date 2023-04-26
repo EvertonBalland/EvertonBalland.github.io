@@ -1,0 +1,36 @@
+body{
+    /*imagem de fundo*/
+    background-image: url(fundo.jpg)
+  }
+  
+  body{
+    /*fonte que remete a um jornal antigo*/
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight:400
+    
+  }
+    .sobreMim{
+      background-color: rgba(211, 211, 211, 0.536);
+      text-align:center;
+  }
+  
+    .lista{
+      background-color:rgba(211, 211, 211, 0.536);
+      text-align:left;
+    }
+    .meuNome{
+      color: aliceblue;
+      background-color:rgb(8, 7, 7);
+      background-size: cover;
+      margin-left: 0%;
+      margin-right: 0%;
+      text-align: center;
+    }
+    .img-container{
+      text-align: center;
+      display: block;
+    }
+    .Idade{
+      text-align: center;
+    }
