@@ -10,14 +10,29 @@ body{
     font-weight:400
     
   }
-    .sobreMim{
+    .sobreMim {
       background-color: rgba(211, 211, 211, 0.536);
       text-align:center;
+      display: center;
+      box-sizing: border-box;
+      width: 60%;
+      padding: 20px;
+      margin: auto;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .morada {
+    text-align: center;
   }
   
     .lista{
       background-color:rgba(211, 211, 211, 0.536);
-      text-align:left;
+      text-align: center;
+      list-style: none;
+
     }
     .meuNome{
       color: aliceblue;
@@ -26,6 +41,9 @@ body{
       margin-left: 0%;
       margin-right: 0%;
       text-align: center;
+      width: 100%;
+      height: 80px;
+      justify-content: center;
     }
     .img-container{
       text-align: center;
